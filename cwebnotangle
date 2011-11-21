@@ -1,4 +1,4 @@
-# cwebprep: a preprocessor for the cweb documentation language
+# cwebnotangle: a preprocessor for the cweb documentation language
 # by Carlos A.S. Oliveira
 #
 # The problem I want to solve is: I like the results of cweb, but
