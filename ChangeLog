@@ -1,0 +1,16 @@
+* Thu Sep  2 17:44:56 UTC 2004
+	- solved some bugs and added the check for negative sum b[i,j] terms
+* Wed Sep  1 17:33:12 UTC 2004
+	- added the option of solving knapsack instances
+* Tue Aug 24 22:55:43 UTC 2004
+	- improved the cweb documentation to use LaTeX
+* Fri Aug 20 19:53:49 UTC 2004
+	- It finally works!!! (basic version of GRASP for minimization)
+* Thu Aug 19 23:43:10 UTC 2004
+	- First version of the constructor was written.
+* Tue Aug 17 18:28:11 UTC 2004
+	- Basic GRASP is now working.
+* Sun Aug 15 18:31:54 UTC 2004
+	- restarting work: make this a grasp for hyperbolic functions
+* Mon Jul 19 23:44:10 EDT 2004
+	- adapted to the paper I am writting to Dr. Hager

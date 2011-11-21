@@ -1,0 +1,494 @@
+GRASP for hyperbolic functions
+success reading file H-m10n20k10l-100h100i10s535.ins
+total time = 1.75, end time = 24.03
+best solution is -617.841748
+GRASP for hyperbolic functions
+success reading file H-m10n20k10l-100h100i10s756.ins
+total time = 6.27, end time = 34.20
+best solution is -416.879404
+GRASP for hyperbolic functions
+success reading file H-m10n20k10l-100h100i10s846.ins
+total time = 1.17, end time = 40.22
+best solution is -518.643037
+GRASP for hyperbolic functions
+success reading file H-m10n20k10l-100h100i10s856.ins
+total time = 0.08, end time = 23.44
+best solution is -453.616111
+GRASP for hyperbolic functions
+success reading file H-m10n20k15l-100h100i15s136.ins
+error: couln't find a feasible solution
+GRASP for hyperbolic functions
+success reading file H-m10n20k15l-100h100i15s674.ins
+error: couln't find a feasible solution
+GRASP for hyperbolic functions
+success reading file H-m10n20k15l-100h100i15s756.ins
+total time = 0.80, end time = 190.72
+best solution is -335.928886
+GRASP for hyperbolic functions
+success reading file H-m10n20k15l-100h100i15s757.ins
+error: couln't find a feasible solution
+GRASP for hyperbolic functions
+success reading file H-m10n20k15l-100h100i15s876.ins
+error: couln't find a feasible solution
+GRASP for hyperbolic functions
+success reading file H-m10n25k10l-100h100i10s565.ins
+error: couln't find a feasible solution
+GRASP for hyperbolic functions
+success reading file H-m10n25k10l-100h100i10s754.ins
+total time = 1.50, end time = 48.52
+best solution is -747.548843
+GRASP for hyperbolic functions
+success reading file H-m10n25k10l-100h100i10s755.ins
+total time = 0.27, end time = 31.70
+best solution is -431.412102
+GRASP for hyperbolic functions
+success reading file H-m10n25k10l-100h100i10s756.ins
+total time = 1.81, end time = 29.73
+best solution is -476.695583
+GRASP for hyperbolic functions
+success reading file H-m10n25k10l-100h100i10s855.ins
+total time = 0.64, end time = 31.14
+best solution is -744.199502
+GRASP for hyperbolic functions
+success reading file H-m10n25k15l-100h100i15s733.ins
+total time = 1.31, end time = 104.09
+best solution is -797.604133
+GRASP for hyperbolic functions
+success reading file H-m10n25k15l-100h100i15s743.ins
+error: couln't find a feasible solution
+GRASP for hyperbolic functions
+success reading file H-m10n25k15l-100h100i15s744.ins
+total time = 3.45, end time = 110.09
+best solution is -872.783225
+GRASP for hyperbolic functions
+success reading file H-m10n25k15l-100h100i15s754.ins
+total time = 0.88, end time = 231.95
+best solution is -763.123043
+GRASP for hyperbolic functions
+success reading file H-m10n25k15l-100h100i15s865.ins
+total time = 1.80, end time = 47.41
+best solution is -464.248472
+GRASP for hyperbolic functions
+success reading file H-m2n25k10l-100h100i10s565.ins
+total time = 0.03, end time = 10.39
+best solution is -536.208283
+GRASP for hyperbolic functions
+success reading file H-m2n25k10l-100h100i10s754.ins
+total time = 1.24, end time = 12.23
+best solution is -620.369727
+GRASP for hyperbolic functions
+success reading file H-m2n25k10l-100h100i10s755.ins
+total time = 0.25, end time = 11.41
+best solution is -194.369427
+GRASP for hyperbolic functions
+success reading file H-m2n25k10l-100h100i10s777.ins
+total time = 2.23, end time = 12.72
+best solution is -609.136531
+GRASP for hyperbolic functions
+success reading file H-m2n25k10l-100h100i10s897.ins
+total time = 0.00, end time = 12.20
+best solution is -1.523995
+GRASP for hyperbolic functions
+success reading file H-m2n25k15l-100h100i15s733.ins
+total time = 0.91, end time = 14.02
+best solution is -745.897674
+GRASP for hyperbolic functions
+success reading file H-m2n25k15l-100h100i15s743.ins
+total time = 0.80, end time = 15.06
+best solution is -605.948864
+GRASP for hyperbolic functions
+success reading file H-m2n25k15l-100h100i15s744.ins
+total time = 4.36, end time = 19.47
+best solution is -866.416058
+GRASP for hyperbolic functions
+success reading file H-m2n25k15l-100h100i15s754.ins
+total time = 0.69, end time = 14.53
+best solution is -675.466468
+GRASP for hyperbolic functions
+success reading file H-m2n25k15l-100h100i15s865.ins
+total time = 0.14, end time = 13.67
+best solution is -308.115159
+GRASP for hyperbolic functions
+success reading file H-m2n30k10l1h100i10s5353.ins
+total time = 0.00, end time = 15.73
+best solution is 0.264678
+GRASP for hyperbolic functions
+success reading file H-m2n30k10l1h100i10s7567.ins
+total time = 0.00, end time = 15.75
+best solution is 0.306136
+GRASP for hyperbolic functions
+success reading file H-m2n30k10l1h100i10s8467.ins
+total time = 0.00, end time = 15.66
+best solution is 0.399038
+GRASP for hyperbolic functions
+success reading file H-m2n30k10l1h100i10s8564.ins
+total time = 0.00, end time = 15.69
+best solution is 0.397921
+GRASP for hyperbolic functions
+success reading file H-m2n30k10l1h100i10s8567.ins
+total time = 0.02, end time = 15.64
+best solution is 0.335480
+GRASP for hyperbolic functions
+success reading file H-m2n30k15l1h100i15s1367.ins
+total time = 0.00, end time = 19.81
+best solution is 0.485293
+GRASP for hyperbolic functions
+success reading file H-m2n30k15l1h100i15s6743.ins
+total time = 0.00, end time = 19.86
+best solution is 0.501353
+GRASP for hyperbolic functions
+success reading file H-m2n30k15l1h100i15s7565.ins
+total time = 0.00, end time = 19.91
+best solution is 0.437264
+GRASP for hyperbolic functions
+success reading file H-m2n30k15l1h100i15s7576.ins
+total time = 0.02, end time = 20.03
+best solution is 0.497546
+GRASP for hyperbolic functions
+success reading file H-m2n30k15l1h100i15s8764.ins
+total time = 0.00, end time = 19.81
+best solution is 0.384558
+GRASP for hyperbolic functions
+success reading file H-m2n30k20l1h100i20s7465.ins
+total time = 0.00, end time = 22.75
+best solution is 0.629596
+GRASP for hyperbolic functions
+success reading file H-m2n30k20l1h100i20s7564.ins
+total time = 0.00, end time = 22.83
+best solution is 0.682991
+GRASP for hyperbolic functions
+success reading file H-m2n30k20l1h100i20s8474.ins
+total time = 0.00, end time = 22.77
+best solution is 0.648047
+GRASP for hyperbolic functions
+success reading file H-m2n30k20l1h100i20s8564.ins
+total time = 0.02, end time = 22.70
+best solution is 0.778819
+GRASP for hyperbolic functions
+success reading file H-m2n30k20l1h100i20s8574.ins
+total time = 0.00, end time = 22.64
+best solution is 0.513942
+GRASP for hyperbolic functions
+success reading file H-m2n30k25l1h100i25s5433.ins
+total time = 0.00, end time = 23.78
+best solution is 0.895777
+GRASP for hyperbolic functions
+success reading file H-m2n30k25l1h100i25s6463.ins
+total time = 0.02, end time = 23.98
+best solution is 0.811834
+GRASP for hyperbolic functions
+success reading file H-m2n30k25l1h100i25s8474.ins
+total time = 0.00, end time = 23.94
+best solution is 0.825521
+GRASP for hyperbolic functions
+success reading file H-m2n30k25l1h100i25s8564.ins
+total time = 0.00, end time = 23.84
+best solution is 0.978813
+GRASP for hyperbolic functions
+success reading file H-m2n30k25l1h100i25s8574.ins
+total time = 0.00, end time = 23.80
+best solution is 0.654135
+GRASP for hyperbolic functions
+success reading file H-m2n35k10l1h100i10s5654.ins
+total time = 0.00, end time = 19.81
+best solution is 0.266967
+GRASP for hyperbolic functions
+success reading file H-m2n35k10l1h100i10s7543.ins
+total time = 0.00, end time = 19.80
+best solution is 0.285684
+GRASP for hyperbolic functions
+success reading file H-m2n35k10l1h100i10s7554.ins
+total time = 0.02, end time = 19.81
+best solution is 0.225505
+GRASP for hyperbolic functions
+success reading file H-m2n35k10l1h100i10s7565.ins
+total time = 0.00, end time = 19.78
+best solution is 0.288852
+GRASP for hyperbolic functions
+success reading file H-m2n35k10l1h100i10s8554.ins
+total time = 0.00, end time = 19.67
+best solution is 0.139485
+GRASP for hyperbolic functions
+success reading file H-m2n35k15l1h100i15s7335.ins
+total time = 0.00, end time = 25.70
+best solution is 0.267753
+GRASP for hyperbolic functions
+success reading file H-m2n35k15l1h100i15s7433.ins
+total time = 0.00, end time = 25.72
+best solution is 0.427570
+GRASP for hyperbolic functions
+success reading file H-m2n35k15l1h100i15s7444.ins
+total time = 0.02, end time = 25.73
+best solution is 0.355415
+GRASP for hyperbolic functions
+success reading file H-m2n35k15l1h100i15s7544.ins
+total time = 0.00, end time = 25.64
+best solution is 0.264031
+GRASP for hyperbolic functions
+success reading file H-m2n35k15l1h100i15s8654.ins
+total time = 0.00, end time = 25.73
+best solution is 0.253569
+GRASP for hyperbolic functions
+success reading file H-m2n35k20l1h100i20s4333.ins
+total time = 0.00, end time = 30.39
+best solution is 0.423029
+GRASP for hyperbolic functions
+success reading file H-m2n35k20l1h100i20s5555.ins
+total time = 0.02, end time = 30.08
+best solution is 0.605635
+GRASP for hyperbolic functions
+success reading file H-m2n35k20l1h100i20s6666.ins
+total time = 0.00, end time = 30.27
+best solution is 0.530609
+GRASP for hyperbolic functions
+success reading file H-m2n35k20l1h100i20s7443.ins
+total time = 0.02, end time = 30.17
+best solution is 0.437854
+GRASP for hyperbolic functions
+success reading file H-m2n35k20l1h100i20s7777.ins
+total time = 0.00, end time = 30.12
+best solution is 0.519319
+GRASP for hyperbolic functions
+success reading file H-m2n35k25l1h100i25s7443.ins
+total time = 0.02, end time = 33.14
+best solution is 0.575543
+GRASP for hyperbolic functions
+success reading file H-m2n35k25l1h100i25s7446.ins
+total time = 0.00, end time = 33.27
+best solution is 0.562193
+GRASP for hyperbolic functions
+success reading file H-m2n35k25l1h100i25s7646.ins
+total time = 0.00, end time = 32.98
+best solution is 0.777392
+GRASP for hyperbolic functions
+success reading file H-m2n35k25l1h100i25s7653.ins
+total time = 0.02, end time = 33.17
+best solution is 0.747550
+GRASP for hyperbolic functions
+success reading file H-m2n40k10l1h100i10s5653.ins
+total time = 0.00, end time = 23.94
+best solution is 0.237324
+GRASP for hyperbolic functions
+success reading file H-m2n40k10l1h100i10s7567.ins
+total time = 0.00, end time = 24.08
+best solution is 0.252452
+GRASP for hyperbolic functions
+success reading file H-m2n40k10l1h100i10s8464.ins
+total time = 0.02, end time = 24.16
+best solution is 0.185381
+GRASP for hyperbolic functions
+success reading file H-m2n40k10l1h100i10s8767.ins
+total time = 0.00, end time = 24.22
+best solution is 0.159551
+GRASP for hyperbolic functions
+success reading file H-m2n40k15l1h100i15s1667.ins
+total time = 0.02, end time = 31.75
+best solution is 0.297363
+GRASP for hyperbolic functions
+success reading file H-m2n40k15l1h100i15s6643.ins
+total time = 0.02, end time = 31.77
+best solution is 0.326342
+GRASP for hyperbolic functions
+success reading file H-m2n40k15l1h100i15s7545.ins
+total time = 0.05, end time = 31.98
+best solution is 0.361133
+GRASP for hyperbolic functions
+success reading file H-m2n40k15l1h100i15s7546.ins
+total time = 0.00, end time = 31.81
+best solution is 0.329709
+GRASP for hyperbolic functions
+success reading file H-m2n40k15l1h100i15s8754.ins
+total time = 0.02, end time = 31.98
+best solution is 0.353352
+GRASP for hyperbolic functions
+success reading file H-m2n40k20l1h100i20s7435.ins
+total time = 0.00, end time = 38.31
+best solution is 0.397993
+GRASP for hyperbolic functions
+success reading file H-m2n40k20l1h100i20s7534.ins
+total time = 0.00, end time = 38.34
+best solution is 0.469577
+GRASP for hyperbolic functions
+success reading file H-m2n40k20l1h100i20s8434.ins
+total time = 0.02, end time = 38.20
+best solution is 0.499298
+GRASP for hyperbolic functions
+success reading file H-m2n40k20l1h100i20s8534.ins
+total time = 0.02, end time = 38.34
+best solution is 0.381992
+GRASP for hyperbolic functions
+success reading file H-m2n40k25l1h100i25s5443.ins
+total time = 0.02, end time = 43.09
+best solution is 0.611096
+GRASP for hyperbolic functions
+success reading file H-m2n40k25l1h100i25s6443.ins
+total time = 0.02, end time = 43.16
+best solution is 0.692098
+GRASP for hyperbolic functions
+success reading file H-m2n40k25l1h100i25s8444.ins
+total time = 0.02, end time = 43.17
+best solution is 0.625506
+GRASP for hyperbolic functions
+success reading file H-m2n40k25l1h100i25s8544.ins
+total time = 0.03, end time = 43.30
+best solution is 0.646323
+GRASP for hyperbolic functions
+success reading file H-m2n45k10l1h100i10s5674.ins
+total time = 0.03, end time = 28.83
+best solution is 0.189976
+GRASP for hyperbolic functions
+success reading file H-m2n45k10l1h100i10s7573.ins
+total time = 0.03, end time = 28.80
+best solution is 0.185928
+GRASP for hyperbolic functions
+success reading file H-m2n45k10l1h100i10s7574.ins
+total time = 0.02, end time = 28.78
+best solution is 0.156653
+GRASP for hyperbolic functions
+success reading file H-m2n45k10l1h100i10s7575.ins
+total time = 0.00, end time = 28.77
+best solution is 0.200123
+GRASP for hyperbolic functions
+success reading file H-m2n45k10l1h100i10s8564.ins
+total time = 0.02, end time = 28.72
+best solution is 0.277121
+GRASP for hyperbolic functions
+success reading file H-m2n45k15l1h100i15s7395.ins
+total time = 0.03, end time = 38.69
+best solution is 0.339657
+GRASP for hyperbolic functions
+success reading file H-m2n45k15l1h100i15s7493.ins
+total time = 0.02, end time = 38.70
+best solution is 0.285265
+GRASP for hyperbolic functions
+success reading file H-m2n45k15l1h100i15s7494.ins
+total time = 0.06, end time = 38.45
+best solution is 0.403499
+GRASP for hyperbolic functions
+success reading file H-m2n45k15l1h100i15s7594.ins
+total time = 0.02, end time = 38.78
+best solution is 0.363715
+GRASP for hyperbolic functions
+success reading file H-m2n45k15l1h100i15s8694.ins
+total time = 0.06, end time = 38.59
+best solution is 0.295413
+GRASP for hyperbolic functions
+success reading file H-m2n45k20l1h100i20s4393.ins
+total time = 0.02, end time = 47.06
+best solution is 0.390538
+GRASP for hyperbolic functions
+success reading file H-m2n45k20l1h100i20s5575.ins
+total time = 0.01, end time = 47.12
+best solution is 0.401236
+GRASP for hyperbolic functions
+success reading file H-m2n45k20l1h100i20s6686.ins
+total time = 0.02, end time = 47.06
+best solution is 0.397597
+GRASP for hyperbolic functions
+success reading file H-m2n45k20l1h100i20s7463.ins
+total time = 0.02, end time = 47.03
+best solution is 0.403595
+GRASP for hyperbolic functions
+success reading file H-m2n45k20l1h100i20s7767.ins
+total time = 0.00, end time = 46.95
+best solution is 0.377600
+GRASP for hyperbolic functions
+success reading file H-m2n45k25l1h100i25s7453.ins
+total time = 0.02, end time = 53.88
+best solution is 0.520649
+GRASP for hyperbolic functions
+success reading file H-m2n45k25l1h100i25s7456.ins
+total time = 0.03, end time = 53.81
+best solution is 0.574934
+GRASP for hyperbolic functions
+success reading file H-m2n45k25l1h100i25s7643.ins
+total time = 0.03, end time = 53.97
+best solution is 0.476918
+GRASP for hyperbolic functions
+success reading file H-m2n45k25l1h100i25s7653.ins
+total time = 0.03, end time = 53.81
+best solution is 0.520104
+GRASP for hyperbolic functions
+success reading file H-m2n45k25l1h100i25s7656.ins
+total time = 0.02, end time = 53.67
+best solution is 0.502845
+GRASP for hyperbolic functions
+success reading file H-m2n50k10l1h100i10s1564.ins
+total time = 0.03, end time = 33.52
+best solution is 0.200785
+GRASP for hyperbolic functions
+success reading file H-m2n50k10l1h100i10s1573.ins
+total time = 0.02, end time = 33.28
+best solution is 0.123924
+GRASP for hyperbolic functions
+success reading file H-m2n50k10l1h100i10s1574.ins
+total time = 0.02, end time = 33.45
+best solution is 0.154564
+GRASP for hyperbolic functions
+success reading file H-m2n50k10l1h100i10s1575.ins
+total time = 0.02, end time = 33.53
+best solution is 0.132270
+GRASP for hyperbolic functions
+success reading file H-m2n50k10l1h100i10s1674.ins
+total time = 0.02, end time = 33.48
+best solution is 0.175633
+GRASP for hyperbolic functions
+success reading file H-m2n50k15l1h100i15s1395.ins
+total time = 0.00, end time = 45.50
+best solution is 0.255846
+GRASP for hyperbolic functions
+success reading file H-m2n50k15l1h100i15s1493.ins
+total time = 0.03, end time = 45.66
+best solution is 0.285617
+GRASP for hyperbolic functions
+success reading file H-m2n50k15l1h100i15s1494.ins
+total time = 0.05, end time = 45.66
+best solution is 0.310852
+GRASP for hyperbolic functions
+success reading file H-m2n50k15l1h100i15s1594.ins
+total time = 0.03, end time = 45.73
+best solution is 0.300066
+GRASP for hyperbolic functions
+success reading file H-m2n50k15l1h100i15s1694.ins
+total time = 0.02, end time = 45.72
+best solution is 0.303115
+GRASP for hyperbolic functions
+success reading file H-m2n50k20l1h100i20s1393.ins
+total time = 0.00, end time = 56.06
+best solution is 0.356717
+GRASP for hyperbolic functions
+success reading file H-m2n50k20l1h100i20s1575.ins
+total time = 0.00, end time = 56.27
+best solution is 0.313645
+GRASP for hyperbolic functions
+success reading file H-m2n50k20l1h100i20s1765.ins
+total time = 0.06, end time = 56.20
+best solution is 0.292361
+GRASP for hyperbolic functions
+success reading file H-m2n50k20l1h100i20s1766.ins
+total time = 0.00, end time = 56.12
+best solution is 0.330175
+GRASP for hyperbolic functions
+success reading file H-m2n50k20l1h100i20s1767.ins
+total time = 0.02, end time = 56.23
+best solution is 0.329134
+GRASP for hyperbolic functions
+success reading file H-m2n50k25l1h100i25s2453.ins
+total time = 0.01, end time = 65.19
+best solution is 0.429971
+GRASP for hyperbolic functions
+success reading file H-m2n50k25l1h100i25s2456.ins
+total time = 0.19, end time = 65.44
+best solution is 0.466408
+GRASP for hyperbolic functions
+success reading file H-m2n50k25l1h100i25s2643.ins
+total time = 0.02, end time = 65.09
+best solution is 0.428769
+GRASP for hyperbolic functions
+success reading file H-m2n50k25l1h100i25s2653.ins
+total time = 0.00, end time = 65.05
+best solution is 0.384136
+GRASP for hyperbolic functions
+success reading file H-m2n50k25l1h100i25s2656.ins
+total time = 0.05, end time = 65.25
+best solution is 0.327996

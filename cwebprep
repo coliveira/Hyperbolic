@@ -1,0 +1,104 @@
+# cwebprep: a preprocessor for the cweb documentation language
+# by Carlos A.S. Oliveira
+#
+# The problem I want to solve is: I like the results of cweb, but
+# 	don't like the cweb language itself. I think it makes programming
+#	more confusing with its tangling features. However, I like the
+#	idea of writing a well commented program.
+#
+# Thus, I imagined to solve this problem by writing normal C source files
+# which can be processed and transformed in input for the cweb program
+# (in fact for cweave, I don't care about ctangle output, since I
+# want to use the original C source). 
+#
+# This is a small script to transform C source files in a .w file
+# acceptable by cweave. The cweb part of the file must be in comments
+# that start with a /*------  comment and finish with a -----*/ comment.
+if [ $# -lt 1 ] ; then 
+	echo usage: $0 cfile.c
+	exit
+fi
+OUTNAME=$1
+echo $OUTNAME
+# this little code substitute the word \function by its definition
+awk ' {
+	delimiter = "|" # normaly it is "|"
+	theindex = match($0, "\\\\func([^\\.]*)\\.")
+	K = length("\\\\func")
+	if (theindex)
+		$0 =  substr($0,1,RSTART-1) "@*2 Function " delimiter substr($0,RSTART+K,RLENGTH-K-1) delimiter substr($0,RSTART+RLENGTH-1,length($0)-RSTART-RLENGTH+2) 
+	theindex = match($0, "\\\\struct([^\\.]*)\\.")
+	K = length("\\\\struct")
+	if (theindex)
+		$0 =  substr($0,1,RSTART-1) "@*2 Structure " delimiter substr($0,RSTART+K,RLENGTH-K-1) delimiter substr($0,RSTART+RLENGTH-1,length($0)-RSTART-RLENGTH+2) 
+	theindex = match($0, "\\\\var([^\\.]*)\\.")
+	K = length("\\\\var")
+	if (theindex)
+		$0 =  substr($0,1,RSTART-1) "@*2 Variable " delimiter substr($0,RSTART+K,RLENGTH-K-1) delimiter substr($0,RSTART+RLENGTH-1,length($0)-RSTART-RLENGTH+2) 
+	theindex = match($0, "\\\\section([^\\.]*)\\.")
+	K = length("\\\\section")
+	if (theindex)
+		$0 =  substr($0,1,RSTART-1) "@*1 " substr($0,RSTART+K,RLENGTH-K-1)  substr($0,RSTART+RLENGTH-1,length($0)-RSTART-RLENGTH+2) 
+	theindex = match($0, "\\\\header([^\\.]*)\\.")
+	K = length("\\\\header")
+	if (theindex)
+		$0 =  substr($0,1,RSTART-1) "@* Header file " delimiter substr($0,RSTART+K,RLENGTH-K-1) delimiter substr($0,RSTART+RLENGTH-1,length($0)-RSTART-RLENGTH+2) 
+	theindex = match($0, "\\\\imp([^\\.]*)\\.")
+	K = length("\\\\imp")
+	if (theindex)
+		$0 =  substr($0,1,RSTART-1) "@* Implementation file " delimiter substr($0,RSTART+K,RLENGTH-K-1) delimiter substr($0,RSTART+RLENGTH-1,length($0)-RSTART-RLENGTH+2) 
+	theindex = match($0, "\\\\param([^\\.]*)\\.")
+	K = length("\\\\param")
+	if (theindex)
+		$0 =  substr($0,1,RSTART-1) "\\par\\yskip\\rule{0cm}{0cm}\\linebreak{$\\bullet$} {\\bf parameter} " delimiter substr($0,RSTART+K,RLENGTH-K-1) delimiter substr($0,RSTART+RLENGTH-1,length($0)-RSTART-RLENGTH+2) 
+	theindex = match($0, "\\\\return")
+	K = length("\\\\return")
+	if (theindex)
+		$0 =  substr($0,1,RSTART-1) "\\par\\yskip\\rule{0cm}{0cm}\\linebreak{$\\bullet$} {\\bf return} " substr($0,RSTART+RLENGTH,length($0)-RSTART-RLENGTH+1) 
+	print $0
+}' < $1 |  # and sends the result to awk
+awk '
+{
+	oncomment=0
+}
+/\/\*------/,/---\*\// { 
+	if (index($0, "---------") == 0) {
+		if (match($0, "^(\\ |\\t)*\\*") != 0) {
+			print substr($0, index($0,"*")+1)  
+		} else print $0
+	}
+	oncomment=1
+}
+/\/\*\*/,/\*\// { 
+	ini = index($0, "/**")
+	fin = index($0, "*/")
+	star = index($0,"*")
+	if (ini != 0 && fin != 0) {
+		printf "%s ", substr($0, 1, ini-1)
+		printf "%s ", substr($0, ini+3, fin-ini-3)
+		print  substr($0, fin+2)
+	} else if (ini != 0) {
+		printf "%s ", substr($0, 1, ini-1)
+		print  substr($0, ini+3)
+	} else if (fin != 0) {
+		star = match($0, "^(\\ |\\t)*\\*") 
+		ini = 0
+		if (star != 0) {
+			star = index($0, "*")
+			printf "%s ", substr($0, 1, star-1)
+			ini = star
+		}
+		printf "%s ", substr($0, ini+1, fin-ini-1)
+		print substr($0, fin+2)
+	} 
+	else {
+		if (match($0, "^(\\ |\\t)*\\*") != 0) {
+			print substr($0, index($0,"*")+1)  
+		} else print $0
+	}
+	oncomment=1
+}
+{ 
+	if (!oncomment)
+		print $0 
+} '  > ${OUTNAME}.w  

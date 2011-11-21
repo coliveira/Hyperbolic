@@ -1,0 +1,43 @@
+fileName=$1
+k=`echo $fileName | gawk '{
+	k = 0
+	k=gensub(".*k([0-9]+).*", "\\\\1", "g")
+	print k
+}'`
+cat $1 | awk -v k=$k '
+/ai |bi |ri / { 
+	printf "%s %d", $1, NF-1
+	for (i=2; i<=NF; i++) {
+		printf " %d", $i
+	}
+	print ""
+	if ($0 == "ai") riFound = 1
+	if ($0 == "ri") riFound = 1
+	next
+}
+/aij/ {
+	findNVar = 1
+	next
+}
+{
+	if (findNVar) {
+		if (!riFound) print "ri 2 ", -k, " ", k
+		printf "%s %d\n", "nvar", NF
+		nvar = NF
+		print "aij"
+		print $0
+		findNVar = 0
+	} else {
+		print $0
+	}
+}
+END {
+	if (!riFound) {
+		print "rij"
+		for (i=0; i<nvar; i++) printf "%d ", 1
+		printf "\n"
+		for (i=0; i<nvar; i++) printf "%d ", -1
+		printf "\n"
+	}
+}
+'
